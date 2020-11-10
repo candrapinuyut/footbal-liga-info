@@ -1,38 +1,48 @@
-.App {
+body{
+  background-image: url('bg2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.judul{
   text-align: center;
+  color:#FFF;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-left{
+  width:60px;
+  height: 60px;
+   border-radius: 50%;
+  overflow: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-left img{
+  width:100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image-left-klasmen{
+  width:30px;
+  height: 30px;
+   border-radius: 50%;
+  overflow: hidden;
 }
-
-.App-link {
-  color: #61dafb;
+.image-left img{
+  width:100%;
 }
+.card{
+  background-color: rgba(255,255,255,0.9);
+}
+.card-green{
+  background-color: rgba(26, 188, 156, 0.85);
+  color:#FFF;
+  cursor: pointer;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.card-blue{
+  background-color: rgba(52, 152, 219,0.85);
+  color:#FFF;
+  cursor: pointer;
+}
+.card-blue:hover{
+  background-color: rgba(52, 152, 219,1);
+}
+.card-green:hover{
+  background-color: rgba(26, 188, 156, 1);
 }
